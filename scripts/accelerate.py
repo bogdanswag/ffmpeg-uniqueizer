@@ -2,8 +2,7 @@ import ffmpeg
 from os import rename, remove
 
 def accelerate_file(file):
-
-    audio_file = f'forac_extr_aud_{file[:-4]}.mp3'
+    audio_file = f'audio_file.mp3'
     (
         ffmpeg
         .input(file)

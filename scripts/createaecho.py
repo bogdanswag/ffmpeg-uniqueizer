@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename
 
 def create_aecho(file):
-
     (
         ffmpeg
         .input(file)

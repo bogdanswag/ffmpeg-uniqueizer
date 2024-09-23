@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename
 
 def darken_video(file):
-
     brightness = -0.07
 
     output_file = f'darkened_{file}'

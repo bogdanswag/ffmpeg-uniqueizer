@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename
 
 def change_bitrate(file):
-
     output_file = f'changedbitrate_{file}'
 
     def get_bitrate(file):

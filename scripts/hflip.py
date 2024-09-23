@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename, remove
 
 def hflip_video(file):
-
     audio_file = f'audio_file.mp3'
     (
         ffmpeg

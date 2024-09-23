@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename
 
 def change_resolution(file):
-
     audio_file = f'audio_file.mp3'
     (
         ffmpeg

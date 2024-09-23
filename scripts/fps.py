@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename
 
 def change_fps(file):
-
     (
         ffmpeg
         .input(file)

@@ -2,7 +2,6 @@ import ffmpeg
 from os import rename
 
 def use_filters(file):
-
     brightness = 0.05 # 0 --> 1
     contrast = 1.1 # 0 ... 1 ... 2
     gamma = 0.95 # 0 ... 1 ... 2
