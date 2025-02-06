@@ -1,6 +1,8 @@
-import ffmpeg
 from os import rename
 from random import randint
+
+import ffmpeg
+
 
 def change_metadata(file):
     output_file = f"changed_metadata_{file}"

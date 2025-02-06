@@ -1,5 +1,7 @@
+from os import remove, rename
+
 import ffmpeg
-from os import rename, remove
+
 
 def slowdown_video(file):
     audio_file = f'forslw_ext_aud_{file[:-4]}.mp3'

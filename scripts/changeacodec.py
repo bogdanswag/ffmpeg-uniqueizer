@@ -1,5 +1,7 @@
-import ffmpeg
 from os import rename
+
+import ffmpeg
+
 
 def change_acodec(file):
     audio_codec = input('\nEnter audiocodec (default aac): ')

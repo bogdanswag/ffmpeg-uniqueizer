@@ -1,5 +1,7 @@
-import ffmpeg
 from os import rename
+
+import ffmpeg
+
 
 def use_filters(file):
     brightness = 0.05 # 0 --> 1

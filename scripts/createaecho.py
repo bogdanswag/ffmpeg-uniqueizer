@@ -1,5 +1,7 @@
-import ffmpeg
 from os import rename
+
+import ffmpeg
+
 
 def create_aecho(file):
     (

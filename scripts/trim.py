@@ -1,5 +1,7 @@
-import ffmpeg
 from os import rename
+
+import ffmpeg
+
 
 def trim_video(file):
     seconds = 1 # or int(input('Enter number of seconds to trim: '))
@@ -18,4 +20,3 @@ def trim_video(file):
     )
 
     rename(output_file, file)
-
